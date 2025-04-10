@@ -26,3 +26,15 @@ odoo-docker-setup/
 ├── README.md
 └── scripts/
     └── init-db.sh (opcional para PostgreSQL)
+    
+## Convención de commits
+
+Usamos prefijos estandarizados en los mensajes de commit para facilitar la lectura y organización del historial:
+
+- [FEAT] → Nueva funcionalidad
+- [FIX] → Corrección de errores
+- [ADD] → Adición de archivos o elementos menores
+- [REFACTOR] → Mejora de código sin cambiar funcionalidad
+- [DOCS] → Cambios en documentación
+- [INIT] → Commits iniciales o estructura base
+- [CHORE] → Tareas varias (actualizaciones, limpieza, etc.)
