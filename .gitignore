@@ -1,0 +1,16 @@
+# Docker
+*.log
+.env
+*.pid
+
+# PyCharm / VSCode
+.idea/
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Volúmenes si se agregan aquí por error
+/srv/odoo-data
+/srv/psql-data
