@@ -19,6 +19,7 @@ Una vez levantado el entorno, Odoo estará disponible en:
 - `https://odoo.campigroup.es` (entorno producción)
 
 # Estructura propuesta para el proyecto
+```bash
 odoo-docker-setup/
 ├── docker-compose.yml
 ├── .gitignore
@@ -26,6 +27,7 @@ odoo-docker-setup/
 ├── README.md
 └── scripts/
     └── init-db.sh (opcional para PostgreSQL)
+```
     
 ## Convención de commits
 
